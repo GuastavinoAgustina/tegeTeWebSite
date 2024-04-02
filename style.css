@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{
-  --color-1: #0f1016;
-  --text-color: #f0f0f0;
-  --accent-color: #006aff;
+  --color-1: #111109;
+  --color-2: #f3f0eb;
+  --color-3: #dfe0c6;
+  --color-4: #223019;
+  --color-5: #22393f;
 }
 *{
   margin: 0;
@@ -10,7 +12,7 @@
 }
 html{
   font-size: 12pt;
-  font-family: Poppins, Segoe UI, Tahoma, sans-serif;
+  font-family: "acumin-pro", sans-serif;
 }
 nav{
   height: 60px;
@@ -25,6 +27,7 @@ nav{
   display: flex;
   flex-direction: row;
   align-items: center;
+
 }
 nav a{
   height: 100%;
@@ -32,16 +35,28 @@ nav a{
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--color-2);
 }
 nav a:hover{
-  background-color: var(--accent-color);
+  opacity: 0.5;
 }
 nav .home-link{
   margin-right: auto;
 }
+
+.logo img{
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 40px;
+  width: auto;
+  
+}
+
 nav svg{
-  fill: var(--text-color);
+  fill: var(--color-2);
 }
 #sidebar-active{
   display: none;
@@ -50,6 +65,10 @@ nav svg{
   display: none;
 }
 @media(max-width: 450px){
+  .logo{
+    margin-right: auto;
+  }
+
   .links-container{
     flex-direction: column;
     align-items: flex-start;
