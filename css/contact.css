@@ -1,0 +1,35 @@
+.container{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    background-color: black;
+    padding: 12px 55px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    color: white;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.data input{
+    display: flex;
+    width: 100%;
+    border: 0;
+    padding: 15px 12px;
+    background-color: #f2f2f2;
+    outline: none;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.button:hover{
+    display: flex;
+    color: white;
+    background-color: transparent;
+    justify-content: center;
+}
