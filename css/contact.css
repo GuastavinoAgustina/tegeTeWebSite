@@ -1,3 +1,11 @@
+:root{
+    --color-1: #111109;
+    --color-2: #f3f0eb;
+    --color-3: #dfe0c6;
+    --color-4: #223019;
+    --color-5: #22393f;
+}
+
 .container{
     padding-top: 2%;
     display: flex;
@@ -6,30 +14,42 @@
 
 .button{
     display: flex;
-    background-color: black;
-    padding: 12px 55px;
+    background-color: var(--color-1);
+    padding: 10px 30px;
     outline: none;
     border: none;
-    border: 1px solid black;
-    color: white;
-    margin-top: 25px;
+    border: 1px solid var(--color-1);
+    color: var(--color-2);
+    margin-top: 10px;
     justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
 }
-
+.form-container{
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin: 10px 20% 10px 20%;
+}
 .data input{
     display: flex;
+    justify-content: center;
     width: 100%;
     border: 0;
     padding: 15px 12px;
-    background-color: #f2f2f2;
+    background-color: var(--color-2);
     outline: none;
-    margin: 10px 0;
-    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .button:hover{
-    display: flex;
-    color: white;
-    background-color: transparent;
-    justify-content: center;
+    color: rgb(130,128,122)
+}
+
+
+@media only screen and (max-width: 900px){
+    .form-container{
+        /* Arriba | Derecha | Abajo | Izquierda */
+        margin: 10px 2% 10px 2%;
+    }
 }
