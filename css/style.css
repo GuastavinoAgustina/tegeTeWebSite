@@ -11,6 +11,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  text-decoration-color: var(--color-2);
   box-sizing: border-box;
 }
 html{
@@ -46,9 +47,43 @@ header{
   text-decoration: none;
   height: 40px;
   width: auto;
+}
+.site-footer.active {
+  opacity: 1;
+}
+.site-footer {
+  width: 100%;
+  opacity: 0;
+  transition: .5s;
+  transition-delay: .1s;
+  background-color: var(--color-1);
+  color: var(--color-2);
+  display: flex;
+  justify-content: space-between;
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 10;
+}
+.site-footer {
+  transition: .5s;
+}
+.site-footer {
+  font-size: 14px;
   
 }
-
+.footer-column{
+  margin: 0px 20px 0px 20px;
+}
+.footer-column a{
+  color: var(--color-2);
+}
+.footer-column a:hover{
+  opacity: 0.5;
+}
+#right-column{
+  text-align-last: right;
+}
 @media only screen and (max-width: 900px){
   .logo{
     margin-right: auto;
