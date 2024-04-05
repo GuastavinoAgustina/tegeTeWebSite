@@ -76,7 +76,7 @@ header{
     overflow: hidden;
   }
   .navbar.active {
-    height: 450px;
+    height: 300px;
   }
   .navbar.active ul {
     opacity: 1;

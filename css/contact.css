@@ -29,7 +29,7 @@
   /* Arriba | Derecha | Abajo | Izquierda */
   margin: 10px 20% 10px 20%;
 }
-.data input{
+.field input{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -42,7 +42,7 @@
     margin-bottom: 10px;
 }
 
-.button:hover{
+button:hover{
     color: rgb(130,128,122)
 }
 
