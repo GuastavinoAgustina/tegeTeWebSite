@@ -29,26 +29,58 @@
   <div class="container">
     <h1>Homepage</h1>
   </div>
-  <div class="form-container">
+  <form id="form" method="post" class="form-container">
     <div class="data">
       <div>
-        <input type="text" placeholder="NAME">
+        <input type="text" placeholder="NAME" id="name">
       </div>
       <div>
-        <input type="text" placeholder="LAST NAME">
+        <input type="text" placeholder="LAST NAME" id="lastname">
       </div>
       <div>
-        <input type="email" placeholder="EMAIL ADDRESS">
+        <input type="email" placeholder="EMAIL ADDRESS" id="email">
       </div>
       <div>
-        <input type="text" placeholder="YOUR NEEDS">
+        <input type="text" placeholder="YOUR NEEDS" id="needs">
       </div>
     </div>
-    <button class="button">
+    <button type="submit" id="button" class="button">
       SEND
     </button>
-  </div>
+
+  </form>
+
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+
+  <script type="text/javascript">
+    emailjs.init('3v_r0qs1eWs7CvM_A')
+  </script>
   
+
+  <script>
+    const btn = document.getElementById('button');
+
+    document.getElementById('form')
+    .addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      btn.value = 'Sending...';
+
+      const serviceID = 'default_service';
+      const templateID = 'template_1oe3h8b';
+
+      emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+          btn.value = 'Send Email';
+          alert('Sent!');
+        }, (err) => {
+          btn.value = 'Send Email';
+          alert(JSON.stringify(err));
+        });
+    });
+  </script>
 
   <script>
     hamburger = document.querySelector(".hamburger");
