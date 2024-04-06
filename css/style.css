@@ -20,7 +20,6 @@ html{
 }
 header{
   height: 100%;
-  height: 60px;
   background-color: var(--color-1);
   display: flex;
   align-items: center;
@@ -84,14 +83,23 @@ header{
 #right-column{
   text-align-last: right;
 }
+
 @media only screen and (max-width: 900px){
   .logo{
-    margin-right: auto;
+    display: inline-block;
+  }
+  header{
+    height: 100%;
+    background-color: var(--color-1);
+    display: block;
+    justify-content: space-between;
+    padding: 0px;
   }
   .hamburger{
-    display: block;
+    display: inline-block;
     cursor: pointer;
     padding: 0 20px;
+    float: right;
   }
   .hamburger .line{
     width: 30px;
@@ -101,7 +109,6 @@ header{
   }
   .navbar{
     height: 0;
-    position: absolute;
     top: 60px;
     left: 0;
     right: 0;
@@ -111,7 +118,7 @@ header{
     overflow: hidden;
   }
   .navbar.active {
-    height: 300px;
+    height: 200px;
   }
   .navbar.active ul {
     opacity: 1;
@@ -119,8 +126,9 @@ header{
   .navbar ul{
     display: block;
     width: fit-content;
-    margin: 60px auto 0 auto;
+    margin-top: 60px;
     text-align: center;
+    margin: auto;
     transition: 0.5s;
   }
   .navbar ul li a{
