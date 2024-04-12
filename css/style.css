@@ -86,6 +86,7 @@ header{
 
 @media only screen and (max-width: 900px){
   .logo{
+    padding-top: 5px;
     display: inline-block;
   }
   header{
@@ -96,9 +97,10 @@ header{
     padding: 0px;
   }
   .hamburger{
+    margin-top: auto;
     display: inline-block;
     cursor: pointer;
-    padding: 0 20px;
+    padding: 10px 20px;
     float: right;
   }
   .hamburger .line{
