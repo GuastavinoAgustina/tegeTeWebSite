@@ -1,0 +1,26 @@
+.titulo{
+    justify-content: center;
+    align-items: center; /* Para centrar verticalmente */ 
+    text-align: center;
+    font-size: 50px;
+    margin: 7% auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Para centrar verticalmente */
+}
+
+.texto {
+    text-align: left;
+    margin-right: 5%;
+}
+
+.video-intro {
+    text-align: right;
+}
+
+.videos{
+    text-align: center;
+}
