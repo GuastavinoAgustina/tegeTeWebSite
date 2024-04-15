@@ -6,6 +6,17 @@
     margin: 7% auto;
 }
 
+img{
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.gallery{
+    columns: 5 320px;
+    column-gap: 0.5em;
+}
+
 .contenedor {
     display: flex;
     justify-content: center;
