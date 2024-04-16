@@ -9,41 +9,45 @@
   <link rel="icon" href="images\logotipo.png">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <img src="images\Iso_Blanco.png" alt="logo de tegeTe">
-      </a>
-    </div>
-    <div class="brand">
-      <a href="index.html">
-        <img src="images\Tipo_blanco.png" alt="logo de tegeTe">
-      </a>
-    </div>
-    <div class="hamburger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-    <nav class="navbar">
-      <ul>
-        <li><a href="about.html">About</a> </li>
-        <li><a href="works.html">Works</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div id="page-container">
+    <div id="content-wrap">
+      <header>
+        <div class="logo">
+          <a href="index.html">
+            <img src="images\Iso_Blanco.png" alt="logo de tegeTe">
+          </a>
+        </div>
+        <div class="brand">
+          <a href="index.html">
+            <img src="images\Tipo_blanco.png" alt="logo de tegeTe">
+          </a>
+        </div>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="about.html">About</a> </li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
 
-  <h1>Homepage</h1>
-  <footer class="site-footer transition-down active">
-    <div class="footer-column">
-      <p>© 2024 tegeTe.<br> All Rights Reserved.</p>
+      <h1>Homepage</h1>
     </div>
-    <div id="right-column" class="footer-column">
-      <p><a href="https://www.instagram.com/tegete.co/"  target=“_blank” >Instagram</a><br>
-      <a href="contact.html" >Contact</a></p>
-    </div>
-  </footer>
+    <footer class="site-footer transition-down active">
+      <div class="footer-column">
+        <p>© 2024 tegeTe.<br> All Rights Reserved.</p>
+      </div>
+      <div id="right-column" class="footer-column">
+        <p><a href="https://www.instagram.com/tegete.co/"  target=“_blank” >Instagram</a><br>
+        <a href="contact.html" >Contact</a></p>
+      </div>
+    </footer>
+  </div>
   <script>
     hamburger = document.querySelector(".hamburger");
     hamburger.onclick = function(){

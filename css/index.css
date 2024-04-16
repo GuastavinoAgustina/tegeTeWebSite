@@ -1,4 +1,17 @@
 .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    min-height: 100vh;
+    font-weight: bolder;
+}
+
+.banner{
     background-color: #F3F0EB ;
 }
 
