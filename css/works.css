@@ -17,10 +17,49 @@ img{
     column-gap: 0.5em;
 }
 
+.imege{
+    display: block;
+    width: 100%;
+}
+
 .contenedor {
     display: flex;
     justify-content: center;
-    align-items: center; /* Para centrar verticalmente */
+    align-items: center;
+}
+
+.imege{
+    display: block;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.caption{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.thumbnail:hover{
+    transform: translateY(-4px);
+}
+
+.img-container:hover .overlay{
+    opacity: 0.4;
 }
 
 .texto {
