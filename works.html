@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css\style.css">
   <link rel="stylesheet" href="css\works.css">
   <link rel="stylesheet" href="https://use.typekit.net/qhd0ysz.css">
+  <link rel="stylesheet" href="css\lightbox.css">
   <link rel="icon" href="images\logotipo.png">
 </head>
 <body>
@@ -67,19 +68,42 @@
       </div>
 
       <div class="gallery">
-        <img src="images/fotografias/1.jpg"></img>
-        <img src="images/fotografias/2.jpg"></img>
-        <img src="images/fotografias/3.jpg"></img>
-        <img src="images/fotografias/4.jpg"></img>
-        <img src="images/fotografias/5.jpg"></img>
-        <img src="images/fotografias/6.jpg"></img>
-        <img src="images/fotografias/7.jpg"></img>
-        <img src="images/fotografias/8.jpg"></img>
-        <img src="images/fotografias/9.jpg"></img>
-        <img src="images/fotografias/10.jpg"></img>
+        <a href="images/fotografias/1.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/1.jpg"></img>
+        </a>
+        <a href="images/fotografias/2.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/2.jpg"></img>
+        </a>
+        <a href="images/fotografias/3.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/3.jpg"></img>
+        </a>
+        <a href="images/fotografias/4.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/4.jpg"></img>
+        </a>
+        <a href="images/fotografias/5.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/5.jpg"></img>
+        </a>
+        <a href="images/fotografias/6.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/6.jpg"></img>
+        </a>
+        <a href="images/fotografias/7.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/7.jpg"></img>
+        </a>
+        <a href="images/fotografias/8.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/8.jpg"></img>
+        </a>
+        <a href="images/fotografias/9.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/9.jpg"></img>
+        </a>
+        <a href="images/fotografias/10.jpg" data-lightbox="Photos">
+          <img src="images/fotografias/10.jpg"></img>
+        </a>
       </div>
     </div>
   </div>
+
+  <script src="js/lightbox-plus-jquery.js"></script>
+
   <script>
     hamburger = document.querySelector(".hamburger");
     hamburger.onclick = function(){
@@ -89,14 +113,3 @@
   </script>
 </body>
 </html>
-</html>
-
-
-<body>
-  <div id="page-container">
-    <div id="content-wrap">
-      <!-- all other page content -->
-    </div>
-    <footer id="footer"></footer>
-  </div>
- </body>
