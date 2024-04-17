@@ -23,14 +23,14 @@
 
 .service{
     background-color: #DFE0C6;
+    padding: 10px;
 }
 
 .service-content{
-    min-height: 80vh;
+    min-height: 60vh;
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
-
 .service_title{
     text-align: center;
 }
@@ -63,4 +63,8 @@
         padding-bottom: 50vw;
         font-size: 40px;
     }
+    .service-content{
+        grid-template-columns: repeat(2,2fr);
+    }
+    
 }
