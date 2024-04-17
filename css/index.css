@@ -26,7 +26,18 @@
 
 .service{
     background-color: #DFE0C6;
-    min-height: 100vh;
+    min-height: 60vh;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.service_title{
+    text-align: center;
+}
+
+.service.text{
+    text-align: left;
 }
 
 .work_whit{
