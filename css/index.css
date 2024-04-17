@@ -1,3 +1,8 @@
+.inicio{
+    height: 100vh;
+    display: flex ;
+    flex-direction: column ;
+}
 .banner{
     display: flex;
     flex-direction: column;
@@ -7,8 +12,7 @@
     text-align: center;
     font-size: 50px;
     position: relative;
-    min-height: 100vh;
-    font-weight: bolder;
+    height: 100%;
 }
 
 .banner{
@@ -17,16 +21,20 @@
 
 .intro{
     background-color: #22393F;
+    min-height: 100vh;
 }
 
 .service{
     background-color: #DFE0C6;
+    min-height: 100vh;
 }
 
 .work_whit{
     background-color: #111109;
+    min-height: 100vh;
 }
 
 .end{
     background-color: #F3F0EB;
+    min-height: 100vh;
 }
