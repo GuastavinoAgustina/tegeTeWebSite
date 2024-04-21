@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 40px;
+    padding: 20px 40px;
 }
 .intro .video-intro{
     display: flex;
@@ -99,8 +99,21 @@
     .banner{
         font-size: 40px;
     }
+    
+    .intro{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px 20px;
+
+    }
+
+    .intro .texto{
+        padding: 40px 20px;
+    }
+    .intro .video-intro{
+        padding: 40px 0px;
+    }
     .service-content{
-        grid-template-columns: repeat(2,2fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .service{
         padding: 10px;
@@ -111,18 +124,18 @@
     }
     .marcas{
         padding: 10px;
-        font-size: 20px
+        font-size: 20px;
     }
-    .intro{
-        grid-template-columns: repeat(1,1fr);
     
-    }
     .marcas img{
         height: 100px;
     }
 }
 
 @media only screen and (max-width: 768px){
+    body{
+        font-size: medium;
+    }
     .banner{
         height: fit-content;
     }
@@ -133,7 +146,13 @@
         min-height: auto;
     }
     .work_whit{
+        font-size: 20px;
+        padding: 50px 10px;
+        text-align: center;
         min-height: auto;
+    }
+    .work_whit .work_whit_intro{
+        padding-bottom: 50px;
     }
     .end{
         text-align: center;
