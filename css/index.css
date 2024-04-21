@@ -62,7 +62,7 @@
     background-color: #DFE0C6;
     padding: 10px;
     font-size: 20px;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 .work_whit_intro{
     display: flex;
@@ -84,7 +84,7 @@
 }
 .end{
     background-color: #223019;
-    min-height: 100vh;
+    min-height: 80vh;
     color: #DFE0C6;
     display: flex;
     justify-content: center;
