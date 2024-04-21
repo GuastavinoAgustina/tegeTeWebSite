@@ -1,8 +1,3 @@
-.inicio{
-    height: 100vh;
-    display: flex ;
-    flex-direction: column ;
-}
 .banner{
     display: flex;
     flex-direction: column;
@@ -12,7 +7,7 @@
     text-align: center;
     font-size: 4vw;
     position: relative;
-    height: 100%;
+    height: 90vh;
     background-color: #F3F0EB ;
 }
 
@@ -122,13 +117,29 @@
         grid-template-columns: repeat(1,1fr);
     
     }
+    .marcas img{
+        height: 100px;
+    }
 }
 
 @media only screen and (max-width: 768px){
     .banner{
-        padding-top: 50vw;
-        padding-bottom: 50vw;
+        height: fit-content;
+    }
+    .banner{
         font-size: 40px;
+    }
+    .services{
+        min-height: auto;
+    }
+    .work_whit{
+        min-height: auto;
+    }
+    .end{
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 6rem;
+        min-height: auto;
     }
     
     
