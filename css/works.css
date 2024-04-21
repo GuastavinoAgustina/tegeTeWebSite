@@ -17,19 +17,25 @@ img{
     column-gap: 0.5em;
 }
 
-.contenedor {
+.intro{
+    background-color: #ffffff;
+    min-height: 100vh;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+
+}
+.intro .texto{
+    color: black ;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center; /* Para centrar verticalmente */
+    padding: 20px 40px;
 }
-
-.texto {
-    text-align: left;
-    margin-right: 5%;
-}
-
-.video-intro {
-    text-align: right;
+.intro .video-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .videos{

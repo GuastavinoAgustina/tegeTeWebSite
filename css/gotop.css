@@ -1,9 +1,9 @@
 .go-top-container{
     position: fixed;
-    bottom: 4rem;
-    right: 4rem;
-    width: 6.6rem;
-    height: 6.6rem;
+    bottom: 0.7rem;
+    right: 0.7rem;
+    width: 4rem;
+    height: 4rem;
     z-index: -1;
 }
 
@@ -36,8 +36,8 @@
 
 .show .go-top-button{
     animation: popup .3s ease-in-out;
-    width: 6.6rem;
-    height: 6.6rem;
+    width: 5rem;
+    height: 5rem;
     z-index: 11;
 }
 
