@@ -112,7 +112,7 @@
         </div>
         <div class="work_whit-content">
           <div class="marcas">
-            <img src="images\Marcas\ADMITONE.png" alt="marca ADMITONE">
+            <img id="imagen" src="images\Marcas\ADMITONE.png" alt="Imagen">
           </div>
           <div class="marcas">
             <img src="images\Marcas\FERREIRA.png" alt="marca FERREIRA">
@@ -150,6 +150,31 @@
           <i class="fas fa-chevron-up"></i>
       </div>
     </div>
+
+    <script>
+      var imagenes = [
+          "images/Marcas/ADMITONE.png",
+          "images/Marcas/TOMMY.png"
+      ];
+
+      var indice = 0;
+
+      function cambiarImagen() {
+          document.getElementById("imagen").style.opacity = 0;
+          setTimeout(function() {
+              document.getElementById("imagen").src = imagenes[indice];
+              setTimeout(function() {
+                  document.getElementById("imagen").style.opacity = 1;
+              }, 50); 
+          }, 500);
+          
+          indice++;
+          if (indice === imagenes.length) {
+              indice = 0;
+          }
+      }
+      setInterval(cambiarImagen, 3000);
+    </script>
 
     <script src="js/gotop.js"></script>
 

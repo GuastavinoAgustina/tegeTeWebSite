@@ -88,6 +88,12 @@
 .marcas img{
     height: 200px;
 }
+
+#imagen {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
 .end{
     background-color: #223019;
     min-height: 80vh;
