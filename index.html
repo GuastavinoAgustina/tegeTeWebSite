@@ -112,25 +112,25 @@
         </div>
         <div class="work_whit-content">
           <div class="marcas">
-            <img id="imagen" src="images\Marcas\ADMITONE.png" alt="Imagen">
+            <img class="marcas_img" id="imagen" src="images\Marcas\ADMITONE.png">
           </div>
           <div class="marcas">
-            <img src="images\Marcas\FERREIRA.png" alt="marca FERREIRA">
+            <img src="images\Marcas\FORD.png" alt="marca FORD">
           </div>
           <div class="marcas">
             <img src="images\Marcas\FILA.png" alt="marca FILA">
           </div>
           <div class="marcas">
-            <img src="images\Marcas\GLOBANT.png" alt="marca GLOBANT">
+            <img class="marcas_img" id="imagen_2" src="images\Marcas\SWATCH.png" alt="marca SWATCH">
           </div>
           <div class="marcas">
             <img src="images\Marcas\NIKE.png" alt="marca NIKE">
           </div>
           <div class="marcas">
-            <img src="images\Marcas\MCDONALDS.png" alt="marca MCDONALDS">
+            <img src="images\Marcas\GLOBANT.png" alt="marca GLOBANT">
           </div>
           <div class="marcas">
-            <img src="images\Marcas\JAGGER.png" alt="marca JAGGER">
+            <img class="marcas_img" id="imagen_1" src="images\Marcas\MCDONALDS.png" alt="marca MCDONALDS">
           </div>
           <div class="marcas">
             <img src="images\Marcas\TGS.png" alt="marca TGS">
@@ -154,17 +154,36 @@
     <script>
       var imagenes = [
           "images/Marcas/ADMITONE.png",
-          "images/Marcas/TOMMY.png"
+          "images/Marcas/TOMMY.png",
+          "images/Marcas/FERREIRA.png"
+      ];
+
+      var imagenes_1 = [
+          "images/Marcas/MCDONALDS.png",
+          "images/Marcas/JAGGER.png",
+          "images/Marcas/SMIRNOFF.png"
+      ];
+
+      var imagenes_2 = [
+          "images/Marcas/SWATCH.png",
+          "images/Marcas/NICASIA.png",
+          "images/Marcas/UNIPAR.png"
       ];
 
       var indice = 0;
 
       function cambiarImagen() {
           document.getElementById("imagen").style.opacity = 0;
+          document.getElementById("imagen_1").style.opacity = 0;
+          document.getElementById("imagen_2").style.opacity = 0;
           setTimeout(function() {
               document.getElementById("imagen").src = imagenes[indice];
+              document.getElementById("imagen_1").src = imagenes_1[indice];
+              document.getElementById("imagen_2").src = imagenes_2[indice];
               setTimeout(function() {
                   document.getElementById("imagen").style.opacity = 1;
+                  document.getElementById("imagen_1").style.opacity = 1;
+                  document.getElementById("imagen_2").style.opacity = 1;
               }, 50); 
           }, 500);
           
