@@ -25,6 +25,12 @@
     align-items: center;
     justify-content: center;
     padding: 20px 40px;
+    animation: mover-texto 5s 1;
+}
+@keyframes mover-texto {
+    from {
+        transform: translateX(-100px);
+    }
 }
 .intro .video-intro{
     display: flex;
