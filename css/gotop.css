@@ -36,8 +36,8 @@
 
 .show .go-top-button{
     animation: popup .3s ease-in-out;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     z-index: 11;
 }
 
