@@ -95,8 +95,8 @@
 }
 .end{
     font-size: 25px;
-    background-color: var(--color-4);
-    color: var(--color-2);
+    background-color: var(--color-3);
+    color: var(--color-1);
     min-height: 60vh;
 }
 .end a {
@@ -105,7 +105,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color:var(--color-2);
+    color:var(--color-1);
 }
 
 .content {
@@ -115,7 +115,7 @@
     text-align: center;
     overflow: hidden;
     font-size: 35px;
-    color: #ecf0f1;
+    color: var(--color-1);
 }
 
 .content__container {
