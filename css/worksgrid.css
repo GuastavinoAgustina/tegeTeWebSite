@@ -52,7 +52,7 @@ body{
     padding-right: 0%;
     display: grid;
     grid-template-columns: repeat(10,1fr);
-    gap:5px;
+    column-gap: 0.5em;
 }
 .video{
     grid-column: span 2;
