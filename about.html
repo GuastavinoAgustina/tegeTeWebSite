@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tegeTe | about </title>
   <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\about.css">
   <link rel="stylesheet" href="https://use.typekit.net/qhd0ysz.css">
   <link rel="icon" href="images\logotipo.png">
 </head>
@@ -35,24 +36,27 @@
           </ul>
         </nav>
       </header>
-
-      <h1>Homepage</h1>
+      <div class="bodycontent">
+        <div class="container">
+          <img class="texto-dibujado" id="imagen" alt="Who we are" src="images\TEXTOS DIBUJADOS\WHO.png">
+        </div>
+      </div>
+      </div>
+      <footer class="site-footer transition-down active">
+        <div class="footer-column">
+          <p>tegeTe - All Rights Reserved</p>
+        </div>
+        <div id="right-column" class="footer-column">
+          <p><a href="https://www.instagram.com/tegete.co/"  target=“_blank” >Instagram </a><a href="contact.html" > Contact</a></p>
+        </div>
+      </footer>
     </div>
-    <footer class="site-footer transition-down active">
-      <div class="footer-column">
-        <p>tegeTe - All Rights Reserved</p>
-      </div>
-      <div id="right-column" class="footer-column">
-        <p><a href="https://www.instagram.com/tegete.co/"  target=“_blank” >Instagram </a><a href="contact.html" > Contact</a></p>
-      </div>
-    </footer>
-  </div>
-  <script>
-    hamburger = document.querySelector(".hamburger");
-    hamburger.onclick = function(){
-      navBar = document.querySelector(".navbar");
-      navBar.classList.toggle("active");
-    }
-  </script>
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function(){
+        navBar = document.querySelector(".navbar");
+        navBar.classList.toggle("active");
+      }
+    </script>
 </body>
 </html>

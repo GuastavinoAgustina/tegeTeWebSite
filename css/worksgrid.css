@@ -5,9 +5,6 @@
     --color-4: #223019;
     --color-5: #22393f;
 }
-.body{
-    
-}
 
 .grid{
     padding-left: 5%;
@@ -16,21 +13,26 @@
     grid-template-columns: repeat(12,1fr);
     gap:30px;
 }
-img{
+.gallery img{
     max-width: 100%;
     display: block;
 }
 
 .titulo{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
-
 .titulo h1{
     grid-column: span 12;
     justify-self: center;
 }
-
+.titulo .container{
+    grid-column: span 12;
+    justify-self: center;
+}
+.titulo .container img{
+    height: 45px;
+}
 .intro .texto{
     grid-column: span 6;
     justify-self: center;
@@ -55,7 +57,7 @@ img{
     width: 100%;
     
 }
-img{
+.gallery img{
     max-width: 100%;
     margin-bottom: 0.5em;
     display: block;

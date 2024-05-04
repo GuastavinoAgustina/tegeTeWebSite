@@ -60,11 +60,15 @@
     grid-column: span 12;
     justify-self: center;
 }
+.service .service_intro img{
+    height: 45px;
+    margin: 20px 0px 20px 0px;
+}
 .service-content{
     display: grid;
     grid-column: span 12;
     grid-template-columns: repeat(4,1fr);
-    gap:30px;
+    gap:50px;
 }
 .work_whit{
     padding-top: 30px;
@@ -75,11 +79,15 @@
     grid-column: span 12;
     justify-self: center;
 }
+.work_whit_intro img{
+    height: 45px;
+    margin: 20px 0px 20px 0px;
+}
 .work_whit-content{
     display: grid;
     grid-column: span 12;
     grid-template-columns: repeat(4,1fr);
-    gap:30px;
+    gap: 20px 50px;
 }
 .marcas{
     display: flex;
@@ -87,7 +95,7 @@
     justify-content: center;
 }
 .marcas img{
-    width: 200px;
+    width: 150px;
 }
 .marcas_img {
     opacity: 1;
@@ -244,6 +252,14 @@
     }
     .end{
         padding-bottom: 3rem;
+    }
+
+    .work_whit_intro img{
+        width:100%;
+        
+        margin: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
 }

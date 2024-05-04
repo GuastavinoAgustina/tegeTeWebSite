@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 html{
-  font-size: 16pt;
+  font-size: 14pt;
   font-family: "acumin-pro", sans-serif;
   scroll-behavior: smooth;
 }
@@ -91,6 +91,8 @@ header{
 }
 .footer-column a{
   color: var(--color-2);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .footer-column a:hover{
   opacity: 0.5;
