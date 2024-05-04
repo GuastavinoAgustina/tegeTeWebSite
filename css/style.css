@@ -114,6 +114,9 @@ header{
 }
 
 @media only screen and (max-width: 900px){
+  .site-footer {
+    margin-top: 10px;            /* Footer height */
+  }
   .logo{
     display: none;
   }
