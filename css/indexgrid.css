@@ -11,7 +11,7 @@
     padding-right: 5%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    gap:30px;
+    gap:20px;
 }
 .banner{
     background-color: var(--color-2) ;
@@ -46,6 +46,10 @@
     justify-self: center;
     align-items: center;
 }
+.intro .texto img{
+    height: 45px;
+    margin: 20px 0px 20px 0px;
+}
 .intro .video-intro{
     grid-column: span 6;
     justify-self: center;
@@ -79,10 +83,7 @@
     grid-column: span 12;
     justify-self: center;
 }
-.work_whit_intro img{
-    height: 45px;
-    margin: 20px 0px 20px 0px;
-}
+
 .work_whit-content{
     display: grid;
     grid-column: span 12;
@@ -101,6 +102,10 @@
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
 }
+.texto-dibujado{
+    height: 45px;
+    margin: 20px 0px 20px 0px;
+}
 .end{
     font-size: 25px;
     background-color: var(--color-3);
@@ -111,7 +116,6 @@
     grid-column: span 12;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     color:var(--color-1);
 }
@@ -169,6 +173,51 @@
     line-height: 1;
 }
 
+.button{
+    display: flex;
+    background-color: var(--color-1);
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border: 1px solid var(--color-1);
+    color: var(--color-2);
+    margin-top: 10px;
+    margin-bottom: 50px;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+.form-container{
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin: 10px 20% 10px 20%;
+  grid-column: span 12;
+}
+.field{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.field input{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid var(--color-1);
+    font-size: medium;
+    background-color: var(--color-3);
+}
+
+.button:hover{
+    color: rgb(130,128,122)
+}
 @keyframes opacity {
     0%, 100% { opacity: 0; }
     50% { opacity: 1; }
@@ -196,11 +245,9 @@
     }
     .service-content{
         grid-template-columns: repeat(2,1fr);
-        gap:30px;
     }
     .work_whit-content{
         grid-template-columns: repeat(4,1fr);
-        gap:30px;
     }
     .marcas img{
         width: 150px;
@@ -260,6 +307,10 @@
         margin: 20px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .form-container{
+        /* Arriba | Derecha | Abajo | Izquierda */
+        margin: 10px 2% 10px 2%;
     }
     
 }

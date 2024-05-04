@@ -5,7 +5,9 @@
     --color-4: #223019;
     --color-5: #22393f;
 }
-
+body{
+    background-color: var(--color-2);
+}
 .grid{
     padding-left: 5%;
     padding-right: 5%;

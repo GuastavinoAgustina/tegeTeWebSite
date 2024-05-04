@@ -8,6 +8,15 @@
 body{
     background-color: var(--color-2);
 }
+.texto{
+    margin: 10px 20% 10px 20%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap:30px;
+}
+p{
+    grid-column: span 12;
+}
 .container{
     padding-top: 2%;
     display: flex;
@@ -61,7 +70,7 @@ body{
     background-color: var(--color-2);
 }
 
-button:hover{
+.button:hover{
     color: rgb(130,128,122)
 }
 
@@ -76,8 +85,11 @@ button:hover{
         /* Arriba | Derecha | Abajo | Izquierda */
         margin: 10px 2% 10px 2%;
     }
+    .texto{
+        margin: 10px 2% 10px 2%;
+    }
     .container img{
-        width:100%;
+        max-height: 40px;
         height: 100%;
         margin: 20px;
         padding-left: 20px;
