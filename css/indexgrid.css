@@ -321,7 +321,12 @@
     .marcas img{
         width: 80px;
     }
+    .intro .texto .texto-dibujado{ 
+        display: flex;
+        margin: auto;
+    }
     .intro .texto{
+        display: flex;
         grid-column: span 12;
     }
     .intro .video-intro{
@@ -329,14 +334,6 @@
     }
     .end{
         padding-bottom: 3rem;
-    }
-
-    .work_whit_intro img{
-        width:100%;
-        
-        margin: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
     }
     .form-container{
         /* Arriba | Derecha | Abajo | Izquierda */

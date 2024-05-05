@@ -34,6 +34,7 @@ body{
 }
 .texto-dibujado{
     height: 35px;
+    margin: 20px 0px 20px 0px;
 }
 .intro .texto{
     grid-column: span 6;
@@ -112,7 +113,6 @@ iframe{
     
     .intro .texto{
         grid-column: span 12;
-        text-align: justify;
 
     }
     .intro .video-intro{
@@ -137,4 +137,14 @@ iframe{
         max-width: 600px;
         width: 60%;
     }
+    .titulo{
+        font-size: 15px;
+        margin: 20px 0px 20px 0px;
+    }
+    .titulo
+        .texto-dibujado{
+            height: 35px;
+            margin: 0px 0px 0px 0px;
+
+    } 
 }
