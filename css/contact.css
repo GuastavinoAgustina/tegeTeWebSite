@@ -9,7 +9,7 @@ body{
     background-color: var(--color-2);
 }
 .texto{
-    margin: 10px 20% 10px 20%;
+    margin: 10px 20% 20px 20%;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     gap:30px;
@@ -24,7 +24,7 @@ p{
     
 }
 .container img{
-    height: 45px;
+    height: 35px;
     margin: 20px 0px 20px 0px;
 }
 

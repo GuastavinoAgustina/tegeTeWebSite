@@ -32,8 +32,8 @@ body{
     grid-column: span 12;
     justify-self: center;
 }
-.titulo .container img{
-    height: 45px;
+.texto-dibujado{
+    height: 35px;
 }
 .intro .texto{
     grid-column: span 6;
