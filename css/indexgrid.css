@@ -69,7 +69,8 @@
 .video-intro iframe{
     aspect-ratio: 9 / 16;
     max-width: 400px;
-    width: 60%;
+    width: 50%;
+    min-width: 270px;
 }
 .service{
     background-color: var(--color-1);
@@ -343,7 +344,12 @@
         display:contents;
     }
     .video-intro iframe{
+        max-width: 350px;
         width: 100%;
+    }
+    
+    .marcas img{
+        width: 80px;
     }
     
 }

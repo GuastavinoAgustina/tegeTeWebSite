@@ -106,8 +106,9 @@ iframe{
     }
     .site-footer {
         margin-top: 0px;           /* Footer height */
-      }
+    }
 }
+
 
 @media only screen and (max-width: 768px){
     
@@ -119,19 +120,10 @@ iframe{
         grid-column: span 12;
     }
     .video-intro iframe{
+        max-width: 350px;
         width: 100%;
     }
-    .videos{
-        padding-left: 5%;
-        padding-right: 5%;  
-        gap: 20px 0px;
-    }
-    .video{
-        grid-column: span 10;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+   
     iframe{
         aspect-ratio: 9 / 16;
         max-width: 600px;
@@ -147,4 +139,19 @@ iframe{
             margin: 0px 0px 0px 0px;
 
     } 
+
+}
+@media only screen and (max-width: 667px){
+    .videos{
+        padding-left: 5%;
+        padding-right: 5%;  
+        gap: 20px 0px;
+    }
+    .video{
+        grid-column: span 10;
+        max-width: 350px;
+        width: 100%;
+        display: flex;
+        margin: auto;
+    }
 }
