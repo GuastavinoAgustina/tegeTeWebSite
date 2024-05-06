@@ -333,9 +333,7 @@
     .intro .video-intro{
         grid-column: span 12;
     }
-    .end{
-        padding-bottom: 3rem;
-    }
+    
     .form-container{
         /* Arriba | Derecha | Abajo | Izquierda */
         margin: 10px 2% 10px 2%;

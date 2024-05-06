@@ -74,12 +74,7 @@ p{
     color: rgb(130,128,122)
 }
 
-@media only screen and (max-width: 1280px){
-    .button{
-        margin-bottom: 6rem;
-    }
-    
-}
+
 @media only screen and (max-width: 900px){
     .form-container{
         /* Arriba | Derecha | Abajo | Izquierda */
