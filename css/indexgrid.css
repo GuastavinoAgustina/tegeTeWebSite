@@ -76,7 +76,7 @@
     background-color: var(--color-1);
     color: var(--color-2);
     padding-top: 30px;
-    padding-bottom: 30px;  
+    padding-bottom: 55px;  
 }
 .service .service_intro{
     grid-column: span 12;
