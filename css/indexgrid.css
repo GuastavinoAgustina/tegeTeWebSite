@@ -283,7 +283,9 @@
     .marcas img{
         width: 150px;
     }
-    
+    .service{
+        padding-bottom: 30px;  
+    }
 }
 
 @media only screen and (max-width: 768px){
